@@ -1,0 +1,179 @@
+html, body {
+	background-color:#050505;
+	margin: 0 auto;
+	font-family: Arial, sans-serif;
+	font-size: 11pt;
+}
+#splash{
+	padding-top: 100px;
+ 	width:100%;
+    height:800px;
+}
+#pageContent{
+	background-image:url('images/body_bg_metal.jpg');
+	background-repeat:repeat-x;
+	height:800px;
+}
+#topMenu{
+	width:900px;
+	height:34px;
+	background-image:url('images/menu_bg.png');
+	background-repeat:repeat-x;
+}
+#footerBar{
+	clear:both;
+	width:900px;
+	height:34px;
+	background-image:url('images/menu_bg.png');
+	background-repeat:repeat-x;
+}
+#content{
+	width:900px;border:0px black solid;padding:0;overflow:hidden;padding:0 0 0 0;
+}
+.pageDiv {
+	text-align:left;width:900px;border:0px red solid;padding:0px;float:left;;background-color:#FFFFFF;
+}
+.pageDiv p{
+	padding-left:8px;
+	padding-right:8px;
+}
+.spanLink {
+	color:#a31d21;
+	text-decoration:underline;
+	cursor:pointer;
+}
+A:link {color:#a31d21;}
+A:visited {color:#a31d21;}
+A:active {color:#a31d21;}
+A:hover {color:#a31d21;}
+
+.menuText {
+	color:#FFFFFF;
+	font-family: Verdana, sans-serif;
+	font-size: 12pt;
+}
+.menuLink {
+	color:#FFFFFF;
+	font-family: Verdana, sans-serif;
+	font-size: 12pt;
+	cursor:pointer;
+}
+.footerText {
+	color:#FFFFFF;
+	font-family: Verdana, sans-serif;
+	font-size: 12pt;
+}
+.footerLink {
+	color:#FFFFFF;
+	font-family: Verdana, sans-serif;
+	font-size: 12pt;
+	cursor:pointer;
+	text-decoration:underline;
+}
+.veryLargeText {
+	font-size: 24pt;
+	font-weight:bold;
+}
+.titleText {
+	font-size: 14pt;
+	font-weight:bold;
+}
+.smallTitleText {
+	font-size: 12pt;
+	font-weight:bold;
+}
+.required {
+	font-size: 11pt;
+	color:#FF0000;
+}
+.hidden {
+	display:none;
+}
+.writtenText {
+	font-family: "Lucida Handwriting", sans-serif;
+}
+#twitterDiv{
+	width:250px;
+	height:250px;
+	overflow-y: scroll;
+	font-size: 10pt;
+	font-family: 'Arial', sans-serif;
+	text-align: left;
+}
+.twitterUpdateCell_old {
+	font-size: 10pt;
+	font-family: 'Arial', sans-serif;
+	border: 1px black solid;
+	margin-bottom:3px;
+	padding:2px;
+	background-color: #dddddd;
+	text-align:left;
+	overflow-x: hidden;
+	word-wrap: break-word;
+	display: none;
+}
+#venueDiv {
+	float:right;
+	margin:8px;
+	padding:3px;
+	border:0px black solid;
+	width:255px;
+	height:390px;
+	background-image: url('images/hotel_bg.png');
+	background-repeat: no-repeat;
+	background-position:center; 
+}
+.twitterUpdateCell {
+	position:relative;
+	font-size: 10pt;
+	font-family: 'Arial', sans-serif;
+	margin-bottom:3px;
+	background-image: url('images/twitter_bg.png');
+	background-repeat: no-repeat;
+	background-position:center; 
+	text-align: left;
+	overflow-x: hidden;
+	word-wrap: break-word;
+	display: none;
+	height: 90px;
+	width: 250px;
+	color: #FFFFFF;
+}
+.twitterUpdateStatus {
+	padding: 4px;
+}
+.twitterUpdateStatus A:link {color:#c0c0c0;}
+.twitterUpdateStatus A:visited {color:#c0c0c0;}
+.twitterUpdateStatus A:active {color:#c0c0c0;}
+.twitterUpdateStatus A:hover {color:#c0c0c0;}
+
+.twitterUpdateTime{
+	font-size: 8pt;
+	padding-right: 8px;
+}
+.inputText {
+	font-family: Arial, sans-serif;
+	font-size: 11pt;
+	width:250px;
+	border:0;
+	border-bottom: 1px black solid;
+	background-color:#dddddd;
+	padding:1px 5px 1px 5px;
+}
+.inputTextArea {
+	font-family: Arial, sans-serif;
+	font-size: 11pt;
+	width:250px;
+	height: 150px;
+	border: 1px black solid;
+	background-color:#dddddd;
+	padding:1px 5px 1px 5px;
+}
+.buttonText {
+	font-family: Arial, sans-serif;
+	font-size: 12pt;
+	cursor:pointer;
+}
+form {
+	margin: 0;
+}

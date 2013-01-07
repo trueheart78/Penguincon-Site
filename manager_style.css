@@ -1,0 +1,25 @@
+html, body {
+	background-color:#050505;
+	margin: 0 auto;
+	font-family: Arial, sans-serif;
+	font-size: 11pt;
+}
+.login_input {
+	border:1px black solid;
+}
+.pageDiv {
+	text-align:left;width:900px;border:0px red solid;padding:0px;float:left;height:600px;background-color:#FFFFFF;
+}
+.pageDiv p{
+	padding-left:8px;
+	padding-right:8px;
+}
+.spanLink {
+	color:#a31d21;
+	text-decoration:underline;
+	cursor:pointer;
+}
+A:link {color:#a31d21;}
+A:visited {color:#a31d21;}
+A:active {color:#a31d21;}
+A:hover {color:#a31d21;}
